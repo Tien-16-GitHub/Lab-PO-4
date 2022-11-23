@@ -7,7 +7,7 @@ int main(){
 	scanf("%lf", &d);
 	printf("Enter a character:");
 	scanf("\n%c", &c);
-	printf("Real number: %lf\n", d);
+	printf("Real number: %.2lf\n", d);
 	printf("Character: %c\n", c);
 	return 0;
 }
